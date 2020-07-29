@@ -250,7 +250,7 @@ export default class Webcam extends Component {
       canvas.height = this.props.height;
       let ctx = canvas.getContext("2d");
       ctx.drawImage(this.video, 0, 0, this.props.width, this.props.height);
-
+//t0068NQAAAAfJE+QZJnX/Cc8Ef+EnAz7vG/aGy7oc9VEAh1mcBmnoBACZ5XvodORSsuLZZgQXMQMleqThPpLHEwLcfIzSwJ8=
       window.reader
         .decodeBuffer(
           ctx.getImageData(0, 0, canvas.width, canvas.height).data,

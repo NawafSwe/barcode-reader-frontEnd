@@ -5,6 +5,8 @@ import { Barcode } from "./Barcode";
 import Webcam from "./react-webcam";
 
 function App() {
+
+
   return (
     <div className="App">
       <Barcode />
