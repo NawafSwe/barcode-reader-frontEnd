@@ -13,6 +13,7 @@ export class Barcode extends Component {
         var txts = [];
         for (var i = 0; i < results.length; ++i) {
           txts.push(results[i].BarcodeText);
+         
         }
         alert(txts.join("\n"));
       })
